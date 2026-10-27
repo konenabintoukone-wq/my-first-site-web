@@ -32,7 +32,7 @@ def loisirs ():
     return "lire des mangas."
 
 @app.get("/bonjour/<Djamilah>")
-def bonjour(prenom):
+def bonjour(Djamilah):
     return f"<h1>Bonjour {Djamilah} !</h1>"
 
 
