@@ -31,6 +31,10 @@ def presentation():
 def loisirs ():
     return "lire des mangas."
 
+@app.get("/bonjour/<Djamilah>")
+def bonjour(prenom):
+    return f"<h1>Bonjour {Djamilah} !</h1>"
+
 
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
